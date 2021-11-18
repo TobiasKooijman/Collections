@@ -15,9 +15,12 @@ def kleurm(hvl):
         num = random.randrange(0,4)
         kleurendic[kleuren[num]] += 1
         sav = kleurendic
-    print(sav)
-        
-        
-
+    print("--------------")
+    print("Gesorteerde M&M's:")
+    print("")
+    print("Groen: "+ str(sav["groen"]))
+    print("Blauw: "+ str(sav["blauw"]))
+    print("Oranje: "+str(sav["oranje"]))
+    print("Bruin: "+str(sav["bruin"]))
 
 kleurm(hvl)
